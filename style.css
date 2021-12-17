@@ -1,0 +1,166 @@
+body {
+
+    color: white;
+
+    font-size: 12pt;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    position: relative;
+
+    height: 100vh;
+
+    width: 100vw;
+
+    background: url(https://cdn.pixabay.com/photo/2021/01/18/12/45/coffee-beans-5928036_960_720.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size:cover;
+
+    background-position: center;
+
+    font-family: times;
+
+   
+
+}
+
+.loginbox{
+
+  width: 360px;
+
+  height: 580px;
+
+  background: black;
+
+  color: white;
+
+  top: 50%;
+
+  left: 50%;
+
+  position: absolute;
+
+  box-sizing: border-box;
+
+  transform: translate(-50%,-50%);
+
+  padding: 60px 30px ;
+
+  border-radius: 10px;
+
+}
+
+.imgcentro{
+
+  width: 120px;
+
+  height: 120px;
+
+  border-radius: 0%;
+
+  position: absolute;
+
+  top: - 100%;
+
+  bottom: 91%;
+
+  right: 33%;
+
+}
+
+h3{
+
+  margin: 0px;
+
+  padding: 0 0 20px;
+
+  text-align: center ;
+
+}
+
+.loginbox input[type="text"], input[type = "password"]
+
+{
+
+  border: none;
+
+  border-bottom: 2px solid darkred;
+
+  background: transparent;
+
+  outline: none;
+
+  height: 40px;
+
+  color: white ;
+
+}
+
+.loginbox input[type ="submit"]
+
+{
+
+  border: none;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  height:45px;
+
+  width: 300px;
+
+  background: red;
+
+  color: white;
+
+  font-size: 18px;
+
+  margin-top: 25px;
+
+  margin-bottom: 20px ;
+
+  font-family:times ;
+
+  
+
+}
+
+.loginbox input[type ="submit"]:hover
+
+{
+
+  cursor: pointer;
+
+  background: blue;
+
+  color: yellowgreen;
+
+}
+
+.loginbox a{
+
+  text-align: center ;
+
+  text-decoration: none;
+
+  margin-bottom: 25px ;
+
+  font-size:20px;
+
+  line-height: 20px;
+
+}
+
+.loginbox a :hover
+
+{
+
+  color: greenyellow;
+
+}
+
